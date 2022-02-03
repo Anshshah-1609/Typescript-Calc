@@ -1,0 +1,71 @@
+body {
+  font-size: 18px;
+}
+.container {
+  margin-top: 40px;
+  padding-top: 10px;
+  width: auto;
+  box-shadow: 6px 2px 10px 6px rgba(0, 0, 0, 0.2);
+}
+button {
+  background-color: white;
+  border: none;
+  padding: 0 10px 0 10px;
+}
+button:hover,
+select:hover {
+  opacity: 0.6;
+  color: red;
+}
+button:active,
+select:active {
+  transform: translateY(3px);
+}
+#degtorad{
+  font-weight: bold;
+}
+.column,
+.col {
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+select {
+  background-color: transparent;
+  border: none;
+}
+#history,
+#output {
+  padding-right: 25px;
+  text-align: right;
+}
+#history {
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+#history-value {
+  font-size: 19px;
+}
+#output {
+  padding-top: 0px;
+  font-size: 22px;
+  font-weight: bold;
+  color: green;
+  text-decoration: none;
+}
+.btn {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: black;
+  padding: 0 15px 0 15px;
+}
+#result {
+  height: 100px;
+  box-shadow: 0 2px 6px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+}
+#result:hover {
+  border: 2px solid grey;
+}
